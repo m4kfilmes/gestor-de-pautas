@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, collection, addDoc, onSnapshot, doc, updateDoc, deleteDoc, query } from 'firebase/firestore';
-import { Plus, Edit, Trash2, XCircle, DollarSign, User } from 'lucide-react';
+import { Plus, Edit, Trash2, XCircle, DollarSign, CalendarDays } from 'lucide-react';
 
 // Configuração do Firebase
 const firebaseConfig = {
